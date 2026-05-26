@@ -23,7 +23,7 @@ from google.oauth2.service_account import Credentials
 # ============================================
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8935195516:AAFu7ksERLDJEeszN3DHGBrFE8OrEZv98RY")
 SPREADSHEET_ID = os.environ.get("SPREADSHEET_ID", "1q6WUYGOjoLQBWq2royMH7BEi63kdBKgG0g-enUg59dA")
-SERVICE_ACCOUNT_FILE = os.environ.get("SERVICE_ACCOUNT_FILE", "service_account.json")
+SERVICE_ACCOUNT_FILE = os.environ.get("SERVICE_ACCOUNT_FILE", "service_account.json.json")
 
 # Daftar barang
 DAFTAR_BARANG = ["BERLIAN", "JB ICCE", "MARBOL", "GM", "NA", "L300", "R7", "JBR", "KING"]
