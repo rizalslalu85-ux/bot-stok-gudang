@@ -1,1 +1,1 @@
-python bot_stok_gudang.py
+web: python bot_stok_gudang.py
