@@ -50,7 +50,8 @@ def get_sheet():
     ]
     if GOOGLE_CREDENTIALS_JSON:
         import json
-        creds_dict = json.loads(GOOGLE_CREDENTIALS_JSON)
+        creds_json = GOOGLE_CREDENTIALS_JSON.replace('\\n', '\n')
+        creds_dict = json.loads(creds_json)
         creds = Credentials.from_service_account_info(creds_dict, scopes=scope)
     else:
         creds = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=scope)
