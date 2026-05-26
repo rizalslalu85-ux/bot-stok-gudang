@@ -470,7 +470,7 @@ def main():
             MASUK_TUKANG: [MessageHandler(filters.TEXT & ~filters.COMMAND, masuk_tukang)],
         },
  fallbacks=[CommandHandler("batal", batal), CommandHandler("start", start)]
-    
+    )
     # ConversationHandler Barang Keluar
     conv_keluar = ConversationHandler(
         entry_points=[MessageHandler(filters.Regex("📤 Barang Keluar"), keluar_start)],
@@ -480,8 +480,8 @@ def main():
             KELUAR_PRES: [MessageHandler(filters.TEXT & ~filters.COMMAND, keluar_pres)],
             KELUAR_SELES: [MessageHandler(filters.TEXT & ~filters.COMMAND, keluar_seles)],
         },
-      fallbacks=[CommandHandler("batal", batal), CommandHandler("start", start)]
-    
+   fallbacks=[CommandHandler("batal", batal), CommandHandler("start", start)]
+    )
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("bantuan", bantuan))
     app.add_handler(conv_masuk)
