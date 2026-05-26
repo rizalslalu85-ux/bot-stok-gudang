@@ -9,6 +9,7 @@ Fitur:
 
 import logging
 import os
+import json
 from datetime import datetime
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import (
@@ -23,7 +24,8 @@ from google.oauth2.service_account import Credentials
 # ============================================
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8935195516:AAFu7ksERLDJEeszN3DHGBrFE8OrEZv98RY")
 SPREADSHEET_ID = os.environ.get("SPREADSHEET_ID", "1q6WUYGOjoLQBWq2royMH7BEi63kdBKgG0g-enUg59dA")
-SERVICE_ACCOUNT_FILE = os.environ.get("SERVICE_ACCOUNT_FILE", "service_account.json.json")
+SERVICE_ACCOUNT_FILE = os.environ.get("SERVICE_ACCOUNT_FILE", "bot-keuangan-497306-45e4e92ece26.json")
+GOOGLE_CREDENTIALS_JSON = os.environ.get("GOOGLE_CREDENTIALS_JSON", "")
 
 # Daftar barang
 DAFTAR_BARANG = ["BERLIAN", "JB ICCE", "MARBOL", "GM", "NA", "L300", "R7", "JBR", "KING"]
@@ -46,7 +48,12 @@ def get_sheet():
         "https://spreadsheets.google.com/feeds",
         "https://www.googleapis.com/auth/drive"
     ]
-    creds = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=scope)
+    if GOOGLE_CREDENTIALS_JSON:
+        import json
+        creds_dict = json.loads(GOOGLE_CREDENTIALS_JSON)
+        creds = Credentials.from_service_account_info(creds_dict, scopes=scope)
+    else:
+        creds = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=scope)
     client = gspread.authorize(creds)
     spreadsheet = client.open_by_key(SPREADSHEET_ID)
     return spreadsheet
