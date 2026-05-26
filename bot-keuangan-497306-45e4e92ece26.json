@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bot-keuangan-497306",
+  "private_key_id": "45e4e92ece260a3dcca6c5829b5dba6963c110c5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDg6vQ3fl1TF7hE\nSEDb822A982TO9eWVSnVw+KzfghhiMPMu2HSgWTCe0TZMksfpzfuoQ5pTXXRshYg\nxUuZ8GzgW2jYh7MZxoG0nQx6KzlqWmHOVzNILeVxHgCOvTgvUOwtP8L6C4x0N7Ua\nGaHQLn09y1aHQ43Xt+Uh0F7EGoGSi8quchRhVFlBmZWgPBZJI3GxIxzTh4AHzXJM\n8ZAUrsqhQzUfXasNmbXkuGV88P6OBbG3U4qWa4CZjKjjX3lsRqZiiWITiM6PcXEs\nO334IM0i0iPL6ZJiPtft6gl9D0E+Juu04O/L8AHtrzKLaIgul6m8edYAlC9VVzcU\n71INin4LAgMBAAECggEADvKee2erBSAw71zL7rI9Z1JQt8XE3KlZR+smUF6CaRUB\nSkRzyl0uGJy/pR2qD3b6CSJsBkSPHXoT7WafUSJA4iJBFA7ksMRYD2xWjXH89Vv/\nXwq9jkD6nCttxw69QqvCnnk72IlW8sxW/V6Rufe0/Bvc6s1rClie4kHqYmcOkHIZ\nBuOIU6bb3owcz+k6fYotbvjMgjQ+qfnCnlBdkoiGV7sqfmHyAAvVxPPM6cejLYHz\nuHtcawQ9Xsv187XPS4gAVmBtLBn92YOwtK74vbV1OorsjwwXH9JuSgCWBKQXqQe6\nAPNHg8a8eCXKKZa2Xj4FH7fBDoRLD4cbRSJCO0A+kQKBgQDzVdKBVmGt4hPSzEq8\nYickZRpp+T57zr3LLQYjOaJZYZ+2iOyd7b4wP5Hun/qy98UBVvi9iT5rIDyt1Zoa\nexITnGMHFW9uZpRMauNVTH8Ca7NsOcWmWrRljkPSlEGa3HZmbL3nl6nTJvbaDzhL\nOF3VtPeUVCFgst5jv637qnGrsQKBgQDsn7023unhkgMrH/8y43L5CE9g1Iol+hY6\n8U+dtGXCm/nDyzntD/9i67yHKzg+pcqYE4eBlwbMPIw2M7mdhNV7JzQMJH/xbL+B\n5MappPL+s+/lVHIkotqU6Jr1J6Du0O4lQqdtePCAe2mYvBXoreiE5wrHFG63uPGu\nb9IF6/0AewKBgAEBlthAEjFU4P4bKCf1Q/IrlNthU3fRmAlSC1dz8o7qD24CzO+u\nPv4WFTVmZfP9gEwMHwUxnxd0T6vsWTHI1n9MQ0CRPx+2vuA+BOiiY1gQN/K3nnCc\nqWhOGUuynz7TsI2l33cosmQUIisuqu3ssr6ie++aFXU/6BmDfmWvA79RAoGBANxp\no8BT/rpu32KxaG+HrRZKZl6FPLZJcaGwHICDhPK1hf+a87deWn9TpYanfLnmh4QH\nVQcinmNq1xS6M+GF1bHk/7d73G4P5YfiiieGDg+xnvoZIkX8KO3iik1of6FVny+4\nGeuAZ07XJrLuKN5X+Kqr6L8uyj97GC1r3dBEVaS3AoGAToM/6VfAr6P2095DyeZm\nG+Nr0Vru0cCcVKPbh+AWU8fw9AkKXustQ10hbZSfMh6MNd+J6ZsTmwsSF8slsFp3\nipv2bfE0XXRHMdm/+oUhRn1DZ4qVzg7qFujzjR9MOmJDzHM1NFPEpvgSkSTioq1a\nv/A18nS9PzaW4CTqr9z9yss=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-keuangan@bot-keuangan-497306.iam.gserviceaccount.com",
+  "client_id": "114652666967538008112",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-keuangan%40bot-keuangan-497306.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
